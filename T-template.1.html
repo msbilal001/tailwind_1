@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spencer Sharp - Software designer, founder, and amateur astronaut</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/fontawesome-free-6.2.1-web/css/all.min.css" />
+    <style>
+      .nav-item {
+        display: none;
+      }
+
+      @media (min-width: 768px) {
+        .nav-item {
+          display: inline-block;
+        }
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50 md:px-20">
+    <nav class="bg-white">
+      <div class=" px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+          <div
+            class="flex items-center m-auto  rounded-full shadow-md border"
+          >
+            <!-- <div class="flex-shrink-0">
+           <span class="text-white">Menu</span>
+          </div> -->
+
+            <div class="hidden md:block">
+              <div class="ml-10 flex items-baseline space-x-4">
+                <a
+                  href="#"
+                  class="nav-item hover:bg-gray-400 hover:text-white px-3 py-2 text-sm font-medium"
+                  >Home</a
+                >
+                <a
+                  href="#"
+                  class="nav-item hover:bg-gray-400 hover:text-white px-3 py-2 text-sm font-medium"
+                  >About</a
+                >
+                <a
+                  href="#"
+                  class="nav-item hover:bg-gray-400 hover:text-white px-3 py-2 text-sm font-medium"
+                  >Services</a
+                >
+                <a
+                  href="#"
+                  class="nav-item hover:bg-gray-400 hover:text-white px-3 py-2 text-sm font-medium"
+                  >Contact</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="-mr-2 flex md:hidden -order-3">
+            <button
+              id="menu-toggle"
+              class="bg-gray-800 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+            >
+              <span class="fas fa-navicon text-white"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div id="menu" class="md:hidden hidden">
+        <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+          <a
+            href="#"
+            class="block text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium"
+            >Home</a
+          >
+          <a
+            href="#"
+            class="block text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium"
+            >About</a
+          >
+          <a
+            href="#"
+            class="block text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium"
+            >Services</a
+          >
+          <a
+            href="#"
+            class="block text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium"
+            >Contact</a
+          >
+        </div>
+      </div>
+    </nav>
+    <main class="bg-white">
+      <header class="md:ps-20 ps-4 pt-10">
+        <div>
+          <img
+            src="resources/avatar.jpg"
+            alt="body"
+            class="w-16 h-16w-16 rounded-full"
+          />
+          <h1 class="text-3xl font-bold py-8">
+            Software designer, founder, <br />
+            and amateur astronaut.
+          </h1>
+          <p class="text-gray-500 pb-6 text-sm">
+            I’m Spencer, a software designer and entrepreneur based in New York
+            City. I’m the founder and <br />
+            CEO of Planetaria, where we develop technologies that empower
+            regular people to explore <br />
+            space on their own terms.
+          </p>
+
+          <div class="text-gray-500">
+            <span class="fab fa-facebook pe-7 ps-3 text-2xl"></span>
+            <span class="fab fa-twitter pe-7 text-2xl"></span>
+            <span class="fab fa-linkedin pe-7 text-2xl"></span>
+            <span class="fab fa-instagram pe-7 text-2xl"></span>
+          </div>
+        </div>
+      </header>
+
+      <article class="md:grid grid-cols-4 gap-2 p-4 md:py-24">
+        <img
+          src="resources/image-1.jpg"
+          alt=""
+          class="w-full h-3/4 rounded mt-3 lg:mt-0"
+        />
+        <img
+          src="resources/image-2.jpg"
+          alt=""
+          class="w-full h-3/4 rounded mt-3 lg:mt-0"
+        />
+        <img
+          src="resources/image-3.jpg"
+          alt=""
+          class="w-full h-3/4 rounded mt-3 lg:mt-0"
+        />
+        <img
+          src="resources/image-4.jpg"
+          alt=""
+          class="w-full h-3/4 rounded mt-3 lg:mt-0"
+        />
+      </article>
+
+      <section class="md:grid grid-cols-2 grid-rows-3 flex flex-col md:px-14 px-3">
+        <div>
+          <p class="border-0 border-l-2 px-2 border-gray-400 text-gray-400">
+            September 5,2022
+          </p>
+          <p class="font-bold py-4">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+          <p class="">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+            tempore eum, voluptates impedit possimus ipsam quis. Accusantium
+            vero deleniti exercitationem cumque esse commodi quaerat, laborum
+            consectetur eaque porro! Inventore, natus.
+          </p>
+          <button
+            type="button "
+            class="btn border-0 font-bold text-sky-400 my-4"
+          >
+            Read Article<span class="fas fa-angle-right ps-3"></span>
+          </button>
+        </div>
+
+        <div class="border px-6 md:w-5/6 w-full  h-4/5 ms-auto rounded-xl mt-4 md:mt-0">
+          <p class="font-bold pt-4">
+            <span class="fas fa-envelope text-gray-200 pe-3"></span>Stay upto
+            Date
+          </p>
+          <p class="py-4">
+            Get notified when I publish something new, and unsubscribe at any
+            time.
+          </p>
+          <form action="" class="flex w-full pb-3">
+            <input type="email" placeholder="Enter Email" class="p-2 w-3/4 border me-4 focus:outline-blue-300" />
+            <div>
+            <button class="bg-black text-white p-2">Join</button>
+          </div>
+          </form>
+        </div>
+
+
+        <div class="mt-5">
+          <p class="border-0 border-l-2 px-2 border-gray-400 text-gray-400">
+            September 5,2022
+          </p>
+          <p class="font-bold py-4">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+          <p class="">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+            tempore eum, voluptates impedit possimus ipsam quis. Accusantium
+            vero deleniti exercitationem cumque esse commodi quaerat, laborum
+            consectetur eaque porro! Inventore, natus.
+          </p>
+          <button
+            type="button "
+            class="btn border-0 font-bold text-sky-400 my-4"
+          >
+            Read Article<span class="fas fa-angle-right ps-3"></span>
+          </button>
+        </div>
+
+        <div class="border md:p-6 p-3 md:w-5/6 w-full  ms-auto rounded-xl mt-4 md:mt-0">
+        <p><span class="fas fa-medkit text-gray-200 pe-3"></span> Work</p>
+
+        <div class="flex justify-between mt-5">
+          <div class="flex justify-center items-center">
+            <img src="resources/planetaria.ecd81ade.svg" alt="svg" class="w-full">
+            <div class="ps-3">
+              <p class="font-bold">
+                Planetaria
+              </p>
+              <p class="text-gray-500">
+                CEO
+              </p>
+            </div>
+          </div>
+
+          <div class="text-gray-400 pt-6 text-sm">2019_______President</div>
+        </div>
+        <div class="flex justify-between mt-5">
+          <div class="flex justify-center items-center">
+            <img src="resources/starbucks.4a5bd050.svg" alt="svg" class="w-full">
+            <div class="ps-3">
+              <p class="font-bold">
+                Planetaria
+              </p>
+              <p class="text-gray-500">
+                CEO
+              </p>
+            </div>
+          </div>
+
+          <div class="text-gray-400 pt-6 text-sm">2019_______President</div>
+        </div>
+        <div class="flex justify-between mt-5">
+          <div class="flex justify-center items-center">
+            <img src="resources/facebook.dd9e7d48.svg" alt="svg" class="w-full">
+            <div class="ps-3">
+              <p class="font-bold">
+                Planetaria
+              </p>
+              <p class="text-gray-500">
+                CEO
+              </p>
+            </div>
+          </div>
+
+          <div class="text-gray-400 pt-6 text-sm">2019_______President</div>
+        </div>
+        <div class="flex justify-between mt-5">
+          <div class="flex justify-center items-center">
+            <img src="resources/airbnb.b4000690.svg" alt="svg" class="w-full">
+            <div class="ps-3">
+              <p class="font-bold">
+                Planetaria
+              </p>
+              <p class="text-gray-500">
+                CEO
+              </p>
+            </div>
+          </div>
+
+          <div class="text-gray-400 pt-6 text-sm">2019_______President</div>
+        </div>
+
+
+          <div>
+            <button type="button" class="btn w-full bg-gray-200 p-1 mt-5">
+              <span class="fas fa-download pe-4 "></span>Download Cv</button>
+          </div>
+
+
+
+        </div>
+
+        <div class="mt-5 md:order-1 -order-4">
+          <p class="border-0 border-l-2 px-2 border-gray-400 text-gray-400">
+            September 5,2022
+          </p>
+          <p class="font-bold py-4">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+          <p class="">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+            tempore eum, voluptates impedit possimus ipsam quis. Accusantium
+            vero deleniti exercitationem cumque esse commodi quaerat, laborum
+            consectetur eaque porro! Inventore, natus.
+          </p>
+          <button
+            type="button "
+            class="btn border-0 font-bold text-sky-400 my-4"
+          >
+            Read Article<span class="fas fa-angle-right ps-3"></span>
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <!-- javascript code for menu bar. -->
+    <script>
+      const menuToggle = document.getElementById("menu-toggle");
+      const menu = document.getElementById("menu");
+
+      menuToggle.addEventListener("click", () => {
+        menu.classList.toggle("hidden");
+      });
+    </script>
+  </body>
+</html>
